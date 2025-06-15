@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../IP_SHA3_512.srcs/sources_1/new/f_permutation.v" \
+"../../../../IP_SHA3_512.srcs/sources_1/new/keccak.v" \
+"../../../../IP_SHA3_512.srcs/sources_1/new/padder.v" \
+"../../../../IP_SHA3_512.srcs/sources_1/new/padder1.v" \
+"../../../../IP_SHA3_512.srcs/sources_1/new/rconst2in1.v" \
+"../../../../IP_SHA3_512.srcs/sources_1/new/round2in1.v" \
+"../../../../IP_SHA3_512.srcs/sim_1/new/tb_keccak_st.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+TEST 0 PASSED
+TEST 1 PASSED
+TEST 2 PASSED
+TEST 3 PASSED
+TEST 4 PASSED
+TEST 5 PASSED
+ALL 6 TESTS PASSED!
+$finish called at time : 2880 ns : File "D:/Nam5/TK VM/IP_SHA3_512/IP_SHA3_512.srcs/sim_1/new/tb_keccak_st.v" Line 110
